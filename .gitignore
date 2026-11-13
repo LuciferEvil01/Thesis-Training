@@ -1,0 +1,29 @@
+# Datos (se descargan y se construyen con ./zarpar.sh)
+data/
+# Resultados intermedios entre notebooks (se regeneran)
+artifacts/
+# Entorno
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+# Artículos en PDF del estado del arte (pesados; las notas sí se versionan)
+superado/contexto_teorico/state_of_art/papers/
+# LaTeX (los PDF sí se versionan)
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.toc
+*.synctex.gz
+# Material de trabajo que no se publica
+superado/
+mision/
+tesis/
+CLAUDE.md
+.claude/
+zarpar.sh
+notebooks/00_plantilla.py
